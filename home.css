@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.458)), url(img/ohome.PNG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back {
+    border: #fffdfd;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(193, 205, 206);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: none;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.back:hover {
+    background-image: linear-gradient(to right,
+    rgb(17, 70, 77) 0%,
+            rgb(41, 101, 119) 100%);
+}
+.twm {
+    margin-top: 1px;
+    font-size: 30px;
+    font-weight: 500px;
+    font-style: italic;
+    color: rgb(194, 206, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: none;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    animation: 2s twm ;
+}
+
+.twm:hover {
+    font-size: 35px;
+    color: azure;
+    
+}
+.more {
+    border: 3px;
+    border-color: #fffdfd;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(193, 205, 206);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.more:hover {
+    color: rgb(141, 232, 248);
+}
+.int {
+    margin-top: 90px;
+    justify-self: center;
+}
+.intro {
+    color: rgb(148, 240, 224);
+    border: 5px;
+    font-size: 50px;
+}
+.fiq{
+    color: black;
+}.pple{
+    color: black;
+}.trend{
+    color: black;
+}
+.prac{
+    color: black;
+}
